@@ -1,7 +1,7 @@
 # Frontier
 
 
-Frontier is a 2D game that takes in space that serves as a tech demo for my `core-js` framework.
+Frontier is a 2D game that takes in space that serves as a tech demo for my [core-js](https://github.com/jgefroh/core-js) framework.
 
 It is written in pure Javascript w/ Canvas rendering and no other frameworks.
 
