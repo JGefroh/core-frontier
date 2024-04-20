@@ -65,6 +65,9 @@ NODE_ENV=production npx webpack build
 
 # The basics
 
+## Audio
+Audio is merely an event that passes a message to play a specific sound starting at a specific time.
+
 ## Camera and viewport
 There are a variety of camera and viewport behaviors demonstrated including:
 * User-controlled viewport, including zooming and panning
@@ -88,7 +91,22 @@ User inputs can be defined on a per-keystroke basis that translates them into pa
 # Game systems
 As a space game, there are a variety of systems built.
 
+## AI
+AIs work with a goal-based system that lets you define a top-level goal and have the AI (theoretically) select what tactics and actions to use to approach that goal. Action are scored based on importance, and then the steps of that action are executed in sequence to complete the action.
+
+## Collision
+Collision is 2d collision system allowing for rotated rectangle collision checks. Collidable entities are defined as with a collision group, informed by an entity's association to a nation for gameplay purposes.
+
 ## Physics
 The physics system supports inertial-based movement.
 * Sustaind acceleration of an object via application of multiple force vectors
 * Travel path prediction based on changes to acceleration, bearing, etc.
+
+# Gameplay systems
+
+## Weapons
+Weapons are in the firing system. Different weapons have different stats, but they are all basic, continuous fire with a firing cooldown between shots.
+
+## Relationships
+Relationships are defined in terms of Nations and Factions. These then inform whether they can be targeted by other nations, as well as the collision system.
+
