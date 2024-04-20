@@ -73,7 +73,7 @@ function addEntities() {
   let earthEntity = new Entity({key: planet.name});
   earthEntity.addComponent(new RenderComponent({  width: planet.imageWidth * 4, height: planet.imageHeight * 4, imagePath: `assets/planets/${planet.name}.png`, renderScale: 1}))
   earthEntity.addComponent(new PositionComponent({ xPosition: 0, yPosition: 0, width: 5000, height: 5000 }));
-  earthEntity.addComponent(new OrbitComponent({orbitRadius: -3700, orbitCompletionTime: 5000, orbitXPosition: 2400, orbitYPosition: 2200, startAngle: 3.15}));
+  earthEntity.addComponent(new OrbitComponent({orbitRadius: -3700, orbitCompletionTime: 5000, orbitXPosition: -1000, orbitYPosition: 0, startAngle: 3.15}));
   Core.addEntity(earthEntity);
 
   //Add sattelite
