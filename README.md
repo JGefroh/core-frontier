@@ -18,23 +18,30 @@ This is not intended to be used in a commercial or production environment - it w
 
 -----
 # Instructions
-W - Increase thrust
-S - Decrease thrust
-A - Turn left
-D - Turn right
-1 - Fire Weapon Group 1
-2 - Fire Weapon Group 2
-3 - Fire Weapon Group 3
-\ - Toggle tactical mode
-Tab - Next target
-ShiftTab - Previous target
-V - View target
-T - Focus target
-Left arrow - Move viewport left
-Right arrow - Move viewport right
-Up arrow - Move viewport up
-Down arrow - Move viewport down
-I - View inventory
+* Movement
+  * W - Increase thrust
+  * S - Decrease thrust
+  * A - Turn left
+  * D - Turn right
+* Weapons
+  * 1 - Fire Weapon Group 1
+  * 2 - Fire Weapon Group 2
+  * 3 - Fire Weapon Group 3
+* Combat
+  * \ - Toggle tactical mode
+  * Tab - Next target
+  * ShiftTab - Previous target
+  * V - View target
+  * T - Focus target
+* Camera
+  * Left arrow - Move viewport left
+  * Right arrow - Move viewport right
+  * Up arrow - Move viewport up
+  * Down arrow - Move viewport down
+  * + Zoom in
+  * - Zoom out
+* Misc
+  * I - View inventory
 
 ------
 # The basics
