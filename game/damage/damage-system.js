@@ -25,6 +25,9 @@ export default class DamageSystem extends System {
         if (entity.key == 'PLAYER') {
           this.send('GUI_UPDATE_TEXT', {key: 'ship-panel-health-value', value: healthComponent.health})
           this.send('GUI_UPDATE_TEXT', {key: 'ship-panel-health-status', value: healthComponent.health < 500 ? 'DANGER' : 'OK'})
+          if (healthComponent.health <= 0) {
+            this.send("GUI_UPDATE_VISIBLE", {relatedKeyPrefix: 'game-over', isVisible: true})
+          }
         }
       });
     }

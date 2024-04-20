@@ -70,6 +70,31 @@ export default class GuiSystem extends System {
         this._addShipPanelLine(yPosition, 4, 'ship-panel', 'bearing', 'MCAS', 'OK')
         this._addShipPanelLine(yPosition, 5, 'ship-panel', 'slowest', '', '')
         this._addShipPanelLine(yPosition, 6, 'ship-panel', 'health', 'Hull Integrity', 'OK', 1000)
+
+
+        this.send('ADD_GUI_RENDERABLE', {
+          key: 'game-over-1',
+          xPosition: viewport.width / 4,
+          yPosition: viewport.height / 4,
+          text: 'game over',
+          textOffsetY: 12,
+          textOffsetX: 12,
+          fontSize: 140,
+          isVisible: false,
+          fontType: 'Protomolecule'
+        });
+        this.send('ADD_GUI_RENDERABLE', {
+          key: 'game-over-2',
+          xPosition: viewport.width / 4,
+          yPosition: viewport.height / 4 + 170,
+          text: 'Your ship has been destroyed',
+          textOffsetY: 12,
+          textOffsetX: 12,
+          fontSize: 50,
+          isVisible: false,
+          fontType: 'Protomolecule'
+        });
+        
       }, 100)
     }
 
