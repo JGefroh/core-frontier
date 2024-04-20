@@ -16,7 +16,27 @@ This is not intended to be used in a commercial or production environment - it w
 <img width="2037" alt="Screenshot 2024-04-19 at 7 08 14 PM" src="https://github.com/JGefroh/core-frontier/assets/1077095/eb8135b0-6e8b-4f0b-99ce-dd53409c4c97">
 <img width="2010" alt="Screenshot 2024-04-19 at 7 13 18 PM" src="https://github.com/JGefroh/core-frontier/assets/1077095/e76e1151-eff7-4906-b3bb-9d19db35ba5a">
 
+-----
+# Instructions
+W - Increase thrust
+S - Decrease thrust
+A - Turn left
+D - Turn right
+1 - Fire Weapon Group 1
+2 - Fire Weapon Group 2
+3 - Fire Weapon Group 3
+\ - Toggle tactical mode
+Tab - Next target
+ShiftTab - Previous target
+V - View target
+T - Focus target
+Left arrow - Move viewport left
+Right arrow - Move viewport right
+Up arrow - Move viewport up
+Down arrow - Move viewport down
+I - View inventory
 
+------
 # The basics
 
 ## Camera and viewport
