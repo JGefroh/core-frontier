@@ -44,6 +44,25 @@ This is not intended to be used in a commercial or production environment - it w
   * I - View inventory
 
 ------
+# Instructions
+
+Install packages
+```
+npm install
+```
+
+Development server (127.0.0.1:9000)
+```
+npx webpack serve
+```
+
+Production build (assets must be moved manually into `dist` folder.
+```
+NODE_ENV=production npx webpack build
+```
+
+------
+
 # The basics
 
 ## Camera and viewport
