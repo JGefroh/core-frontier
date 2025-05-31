@@ -12,6 +12,8 @@ This is not intended to be used in a commercial or production environment - it w
 ----
 # Screenshots
 
+![output](https://github.com/user-attachments/assets/07e1f3bd-1a0c-4bea-a78f-2eef1ba52f93)
+
 <img width="2043" alt="Screenshot 2024-04-19 at 7 07 34 PM" src="https://github.com/JGefroh/core-frontier/assets/1077095/74ef86c0-b3ae-4e99-8cef-3f1e0658694e">
 <img width="2037" alt="Screenshot 2024-04-19 at 7 08 14 PM" src="https://github.com/JGefroh/core-frontier/assets/1077095/eb8135b0-6e8b-4f0b-99ce-dd53409c4c97">
 <img width="2010" alt="Screenshot 2024-04-19 at 7 13 18 PM" src="https://github.com/JGefroh/core-frontier/assets/1077095/e76e1151-eff7-4906-b3bb-9d19db35ba5a">
